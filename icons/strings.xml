@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">SHRI_ULI</string>
+    <string name="page_name">Business Service</string>
+    <string name="containertype">Select the Container type required</string>
+    <string name="dimensions">Enter the Dimensions</string>
+    <string name="vehicle_type">Select the Vehicle type required</string>
+    <string name="product_type">Select the Product Type</string>
+    <string name="source">Enter the Source</string>
+    <string name="destination">Enter the Destination</string>
+    <string name="offer_price">Required Offer Price</string>
+    <string name="completed">Completed</string>
+    <string name="quantity">Quantity</string>
+    <string-array name="items_container">
+        <item>Boxes</item>
+        <item>Cylinders/Cans/Drums</item>
+        <item>Glass Tubes(Chemicals based)</item>
+        <item>Sacks</item>
+    </string-array>
+
+    <string-array name="items_product">
+        <item>Hazardous</item>
+        <item>Inflammable</item>
+        <item>Handle with Care</item>
+    </string-array>
+
+    <string-array name="items_vehicle">
+        <item>Omni</item>
+        <item>Tempo</item>
+        <item>Trucks</item>
+        <item>Trollas/Lorry</item>
+    </string-array>
+</resources>
