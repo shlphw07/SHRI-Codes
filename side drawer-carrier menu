@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_1"
+            android:icon="@drawable/i1"
+            android:title="Account" />
+        <item
+            android:id="@+id/item_2"
+            android:icon="@drawable/i2"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/item_3"
+            android:icon="@drawable/i5"
+            android:title="Book" />
+    </group>
+    <item android:title="Contact us">
+        <menu>
+            <item
+                android:id="@+id/item_4"
+                android:icon="@drawable/i3"
+                android:title="Mail" />
+            <item
+                android:id="@+id/item_5"
+                android:icon="@drawable/i4"
+                android:title="Contact" />
+        </menu>
+    </item>
+</menu>
