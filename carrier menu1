@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item android:id="@+id/item1"
+    android:icon="@drawable/ic_icon"
+    android:title="Help"
+    app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/item2"
+        android:icon="@drawable/ic_icon1"
+        android:title="Guide"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/item3"
+        android:title="FAQs"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_icon2" />
+    <item android:id="@+id/item4"
+        android:title="Settings"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_icon3" />
+    <item android:id="@+id/item5"
+        android:title="Log out"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_icon4" />
+    <item android:id="@+id/item6"
+        android:title="About Us"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_icon5" />
+
+</menu>
