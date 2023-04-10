@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">shriuli100</string>
+    <string name="search">search</string>
+    <string name="profile">profile</string>
+    <string-array name="profile_Settings"/>
+    <string name="button">Button</string>
+    <item name="ACCOUNT" type="string" />
+    <item name="email" type="string" />
+    <item name="premium_plan" type="string"/>
+</resources>
